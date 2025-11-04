@@ -44,6 +44,37 @@ Reduces a list to a single value.
 
 # SQL
 Aggregation Functions (SUM, AVG, COUNT, MIN, MAX) and Clauses (WHERE, GROUP BY, HAVING, ORDER BY)
+# SUM()
+Adds up numeric values SUM(marks)
+<img width="1002" height="438" alt="image" src="https://github.com/user-attachments/assets/8a3dd01b-5a68-416a-a137-0e8e2e5b3cec" />
+# AVG()
+Returns the average value AVG(marks)
+<img width="1012" height="477" alt="image" src="https://github.com/user-attachments/assets/480e8f62-6ca9-4a4d-a820-23060decf0fa" />
+# COUNT()
+Counts the number of rows COUNT(id)
+<img width="1006" height="398" alt="image" src="https://github.com/user-attachments/assets/951d3abb-1e3b-4846-96a3-36a7a71bb098" />
+# MIN()
+Returns the smallest value MIN(marks)
+<img width="909" height="403" alt="image" src="https://github.com/user-attachments/assets/1c26e86f-f000-470c-b306-0e9ba1377526" />
+# MAX()
+Returns the largest value MAX(marks)
+<img width="972" height="400" alt="image" src="https://github.com/user-attachments/assets/5248464c-d693-405e-9583-f07a8d4fc66f" />
+
+Group by:
+The GROUP BY clause is used to group rows that have the same values in one or more columns.It is usually used with aggregate functions like SUM(), COUNT(), AVG(), MAX(), MIN() to summarize data.
+<img width="991" height="523" alt="image" src="https://github.com/user-attachments/assets/71ccb74f-45f0-4883-83ce-e9d9b271a515" />
+
+
+# Window Functions: 
+Window Functions in SQL are powerful analytical functions that perform calculations across a set of rows related to the current row, without collapsing them into a single row (unlike GROUP BY).
+
+
+
+
+
+
+
+
 
 
 
