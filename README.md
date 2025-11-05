@@ -101,7 +101,7 @@ Shows each employee’s department average alongside their salary.
 <img width="993" height="515" alt="image" src="https://github.com/user-attachments/assets/fa28bad9-6aa3-4147-9e6a-d5570ace958e" />
 
 # 5 NTILE()
-Divides employees into 3 salary bands.
+Divides employees into 3 salary bands
 <img width="984" height="580" alt="image" src="https://github.com/user-attachments/assets/3f3f1e16-5a77-4950-b9dc-cbff064f9063" />
 
 
