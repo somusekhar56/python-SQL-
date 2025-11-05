@@ -83,6 +83,41 @@ The ORDER BY clause is used to sort the result set of a query.By default, it sor
 # Window Functions: 
 Window Functions in SQL are powerful analytical functions that perform calculations across a set of rows related to the current row, without collapsing them into a single row (unlike GROUP BY).
 
+# 1.RANK()
+if two have same salary, next rank is skipped.
+RANK() assigns the same rank for ties (Bob & Charlie = 1), but skips the next rank (no rank 2 in IT).
+<img width="998" height="525" alt="image" src="https://github.com/user-attachments/assets/65ade414-455a-4350-9a8c-a0c1c7fc616d" />
+
+# 2 DENSE_RANK()
+Like RANK(), but without skipping numbers.
+<img width="1002" height="504" alt="image" src="https://github.com/user-attachments/assets/52940a4f-a2fc-46d6-a633-6b9e4d7187db" />
+
+# 3 ROW_NUMBER()
+Gives a unique number to each employee within their department.
+<img width="987" height="517" alt="image" src="https://github.com/user-attachments/assets/fa53fc56-2421-496e-9c39-76674bad4056" />
+
+# 4. AVG() as a Window Function
+Shows each employee’s department average alongside their salary.
+<img width="993" height="515" alt="image" src="https://github.com/user-attachments/assets/fa28bad9-6aa3-4147-9e6a-d5570ace958e" />
+
+# 5 NTILE()
+Divides employees into 3 salary bands.
+<img width="984" height="580" alt="image" src="https://github.com/user-attachments/assets/3f3f1e16-5a77-4950-b9dc-cbff064f9063" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
