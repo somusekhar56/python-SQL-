@@ -60,13 +60,30 @@ Returns the smallest value MIN(marks)
 Returns the largest value MAX(marks)
 <img width="972" height="400" alt="image" src="https://github.com/user-attachments/assets/5248464c-d693-405e-9583-f07a8d4fc66f" />
 
-Group by:
+# Group by:
 The GROUP BY clause is used to group rows that have the same values in one or more columns.It is usually used with aggregate functions like SUM(), COUNT(), AVG(), MAX(), MIN() to summarize data.
 <img width="991" height="523" alt="image" src="https://github.com/user-attachments/assets/71ccb74f-45f0-4883-83ce-e9d9b271a515" />
+
+# Having clause:
+The HAVING clause in SQL is used to filter groups of records created by the GROUP BY clause.Unlike WHERE, which filters individual rows, HAVING filters aggregated data (like SUM, COUNT, AVG, MAX, MIN).
+<img width="902" height="486" alt="image" src="https://github.com/user-attachments/assets/a151e98d-16e1-461a-bef8-1f47162c6590" />
+
+# Order by:
+The ORDER BY clause is used to sort the result set of a query.By default, it sorts in ascending order (ASC). You can also sort in descending order (DESC).It can sort by one or more columns.
+
+# Ascending order (ASC)
+
+<img width="943" height="455" alt="image" src="https://github.com/user-attachments/assets/45d53a90-94d6-4309-ba19-1cacc280a5a6" />
+# Descending order (DESC)
+<img width="1010" height="488" alt="image" src="https://github.com/user-attachments/assets/48bf19a4-cad5-4aef-b6c1-e167809e88f4" />
+
+
 
 
 # Window Functions: 
 Window Functions in SQL are powerful analytical functions that perform calculations across a set of rows related to the current row, without collapsing them into a single row (unlike GROUP BY).
+
+
 
 
 
