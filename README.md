@@ -106,6 +106,64 @@ Divides employees into 3 salary bands
 
 # Object-Oriented Programming (OOP):
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects — which bundle data (attributes) and behavior (methods) together.
+# 1 classes and objects:
+A class is a blueprint or template for creating objects.It defines attributes (variables) and methods (functions) that describe the behavior of the object. An object is an instance (or a real example) of a class.When a class is defined, no memory is allocated until an object is created.
+
+<img width="1272" height="453" alt="image" src="https://github.com/user-attachments/assets/2879a400-902f-4f45-9658-02f8badfee61" />
+
+<img width="1203" height="391" alt="image" src="https://github.com/user-attachments/assets/5cb13788-3880-4817-be28-a2b53db48c78" />
+
+# 2 Inheritance:
+Inheritance allows one class (child class) to inherit properties and methods from another class (parent class).It helps to reuse code and create a hierarchy between classes.
+<img width="1214" height="476" alt="image" src="https://github.com/user-attachments/assets/b18cf1cd-c70f-4f49-ac31-cd2d87418f8a" />
+
+<img width="1177" height="464" alt="image" src="https://github.com/user-attachments/assets/b4edd89a-98ce-4e51-b9c1-ea91d935605b" />
+
+# 3 Polymorphism:
+Polymorphism means “many forms”.It allows different classes to have methods with the same name, but with different behaviors.
+
+<img width="1227" height="322" alt="image" src="https://github.com/user-attachments/assets/66ba36e0-1592-4d1b-9524-efa89914abfa" />
+
+# 4 Abstraction:
+Abstraction means hiding unnecessary details and showing only the essential features of an object.
+
+It helps you focus on what an object does, rather than how it does it.
+<img width="1272" height="463" alt="image" src="https://github.com/user-attachments/assets/d27634fe-8783-421a-b965-66a8778e1adf" />
+
+# Encapsulation:
+Encapsulation means binding data (variables) and methods (functions) that operate on that data within a single unit (class)
+
+<img width="1156" height="431" alt="image" src="https://github.com/user-attachments/assets/625396a7-fc64-4f70-9d61-dd9460e4cfc4" />
+
+# 2 Decorators: Enhancing functions using decorators:
+
+A decorator is a function that takes another function as input, adds some extra functionality to it, and then returns the modified function — without changing the original function’s code.
+<img width="1272" height="404" alt="image" src="https://github.com/user-attachments/assets/ccf5a151-f05d-4fc6-b40f-c995528c7617" />
+
+<img width="1187" height="395" alt="image" src="https://github.com/user-attachments/assets/414e4f7a-85b6-4129-977e-6e5f1bb89dfc" />
+
+# 3 generators
+A generator is a special kind of function that lets you generate values one at a time instead of storing them all in memory.
+<img width="1212" height="257" alt="image" src="https://github.com/user-attachments/assets/b9f0e53d-d81e-4f20-aa61-4fe0e8287608" />
+
+<img width="1145" height="345" alt="image" src="https://github.com/user-attachments/assets/7a05b83e-f972-4929-801d-c49ba3d01504" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
