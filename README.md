@@ -104,6 +104,9 @@ Shows each employee’s department average alongside their salary.
 Divides employees into 3 salary bands
 <img width="984" height="580" alt="image" src="https://github.com/user-attachments/assets/3f3f1e16-5a77-4950-b9dc-cbff064f9063" />
 
+# Object-Oriented Programming (OOP):
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects — which bundle data (attributes) and behavior (methods) together.
+
 
 
 
