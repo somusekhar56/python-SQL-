@@ -148,6 +148,9 @@ A generator is a special kind of function that lets you generate values one at a
 
 <img width="1145" height="345" alt="image" src="https://github.com/user-attachments/assets/7a05b83e-f972-4929-801d-c49ba3d01504" />
 
+# joins:
+A JOIN in SQL is a clause that retrieves data by linking rows from multiple tables based on a common column.To combine related data from different tables,avoid data duplication (normalize the database) and retrieve meaningful results by connecting tables.
+
 
 
 
