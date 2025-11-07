@@ -151,6 +151,32 @@ A generator is a special kind of function that lets you generate values one at a
 # joins:
 A JOIN in SQL is a clause that retrieves data by linking rows from multiple tables based on a common column.To combine related data from different tables,avoid data duplication (normalize the database) and retrieve meaningful results by connecting tables.
 
+<img width="1007" height="570" alt="image" src="https://github.com/user-attachments/assets/e6ff3c75-d4b3-4e3f-9324-df24248fe93a" />
+
+
+# INNER JOIN:
+Returns only the rows that have matching values in both tables.
+
+# LEFT JOIN:
+Returns all rows from the left table and matching rows from the right table. If there’s no match, it shows NULL for the right table columns. All rows from the left table (first table in the query),and the matching rows from the right table (second table in the query).If there is no match, the result will show NULL for columns from the right table.
+
+#  RIGHT JOIN:
+Returns all rows from the right table and matching rows from the left table. If there’s no match, it shows NULL for the left table columns.
+
+# FULL JOIN:
+Returns all rows from both tables. Rows without a match in the other table will show NULL.
+
+# CROSS JOIN:
+Returns all possible combinations of rows from both tables (Cartesian product).
+
+  # Subquery:
+A subquery is a query inside another query — it can be in the SELECT, FROM, or WHERE clause.A Subquery (or inner query) is a query inside another query. SELECT column_name FROM table_name WHERE column_name operator (SELECT column_name FROM another_table WHERE condition);
+
+# CTE:(Common Table Expression)
+A CTE is like a named temporary result set that exists only for the duration of a single query.It makes queries cleaner, reusable, and easier to read compared to subqueries. A CTE (Common Table Expression) is a temporary result set that you can reference within a single SQL statement.
+
+WITH cte_name AS ( SELECT column1, column2, ... FROM table_name WHERE condition ) SELECT * FROM cte_name WHERE some_condition;
+
 
 
 
