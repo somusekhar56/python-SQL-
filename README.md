@@ -240,8 +240,15 @@ Negates the condition WHERE NOT classid = 101
 
 <img width="1007" height="590" alt="image" src="https://github.com/user-attachments/assets/7ecc13fa-c993-4253-ab69-e7e9d375314d" />
 
-# CONCAT
+# String Concatenation Operator: ||
+
+In SQL, the string concatenation operator is || (two vertical bars). It’s used to combine (join) two or more strings together.
+
+
+
 <img width="999" height="582" alt="image" src="https://github.com/user-attachments/assets/d5e8b598-6d6c-4030-90f4-faedf643fcc2" />
+
+
 
 
 
