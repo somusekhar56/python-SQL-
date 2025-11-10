@@ -245,8 +245,22 @@ Negates the condition WHERE NOT classid = 101
 In SQL, the string concatenation operator is || (two vertical bars). It’s used to combine (join) two or more strings together.
 
 
-
 <img width="999" height="582" alt="image" src="https://github.com/user-attachments/assets/d5e8b598-6d6c-4030-90f4-faedf643fcc2" />
+
+# Views:
+A View is a virtual table that is based on the result of an SQL query.It doesn’t store data physically, but instead stores a query that pulls data from one or more tables.So, when you query a view, SQL runs the query behind the scenes and shows you the result like a table.
+
+# Create view:
+The CREATE VIEW command is used to create a virtual table based on the result of a SQL query.
+<img width="683" height="491" alt="image" src="https://github.com/user-attachments/assets/00ab76ab-e7e5-4f07-918d-0d9aa9977b75" />
+
+# DROP VIEW:
+Used to delete a view permanently from the database.
+<img width="1011" height="527" alt="image" src="https://github.com/user-attachments/assets/7dbc6d53-8ee2-40d7-9fa1-d6c4a07a8155" />
+
+
+
+
 
 
 
