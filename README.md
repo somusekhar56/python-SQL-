@@ -177,6 +177,92 @@ A CTE is like a named temporary result set that exists only for the duration of 
 
 WITH cte_name AS ( SELECT column1, column2, ... FROM table_name WHERE condition ) SELECT * FROM cte_name WHERE some_condition;
 
+#  SQL Operator:
+An SQL operator is a symbol or keyword used to perform operations on data in SQL queries. Operators are used in conditions, calculations, and logical expressions to filter, compare, or manipulate data.
+
+# Arithmetic Operators:
+Used for mathematical calculations like Addition,Subtraction,Multiplication and Division .
+
+<img width="1004" height="554" alt="image" src="https://github.com/user-attachments/assets/13a60a99-d3e0-4ff7-8180-d7f59f40253f" />
+
+# Comparison Operators:
+Used to compare values in conditions.
+
+* = Equal to WHERE Salary = 50000
+* != or <> Not equal to WHERE Salary <> 50000
+* Greater than WHERE Salary > 50000
+
+* < Less than WHERE Salary < 50000
+* = Greater than or equal to WHERE Salary >= 50000
+
+* <= Less than or equal to WHERE Salary <= 50000
+
+#  = Equal to WHERE Salary = 50000
+
+  <img width="1007" height="581" alt="image" src="https://github.com/user-attachments/assets/db771356-9c74-441c-a411-ac435b61e8ec" />
+
+ #  != or <> Not equal to WHERE Salary <> 50000
+ 
+ <img width="1001" height="502" alt="image" src="https://github.com/user-attachments/assets/d7c2c796-5ffd-42f8-a291-c3fb675db935" />
+
+ # Greater than WHERE Salary > 50000
+
+ <img width="1016" height="500" alt="image" src="https://github.com/user-attachments/assets/e3fec7cb-3984-496a-bc43-2b42b97faf07" />
+
+ # < Less than WHERE Salary < 50000
+
+ <img width="1019" height="603" alt="image" src="https://github.com/user-attachments/assets/1cc6834c-d956-4d6e-b09b-6a81c0fee460" />
+
+#  = Greater than or equal to WHERE Salary >= 50000
+
+<img width="1009" height="562" alt="image" src="https://github.com/user-attachments/assets/4078f143-32f4-4ff2-8bd5-c2303d50d9b0" />
+
+
+ # <= Less than or equal to WHERE Salary <= 50000
+
+ <img width="1012" height="572" alt="image" src="https://github.com/user-attachments/assets/d2e37c65-8324-4690-8271-85e8613e75cd" />
+
+ # Logical Operator:
+Used to combine multiple conditions.
+
+# AND
+Both conditions must be true WHERE classid = 101 AND Salary > 50000
+
+<img width="1005" height="550" alt="image" src="https://github.com/user-attachments/assets/15ff1c4c-70d9-475c-b22a-4c20a09c0301" />
+
+# OR
+Either condition can be true WHERE classid = 101 OR Salary > 50000
+
+<img width="1001" height="616" alt="image" src="https://github.com/user-attachments/assets/09494a31-635e-4e0b-84e4-db6a89a64420" />
+
+# NOT
+Negates the condition WHERE NOT classid = 101
+
+<img width="1007" height="590" alt="image" src="https://github.com/user-attachments/assets/7ecc13fa-c993-4253-ab69-e7e9d375314d" />
+
+# CONCAT
+<img width="999" height="582" alt="image" src="https://github.com/user-attachments/assets/d5e8b598-6d6c-4030-90f4-faedf643fcc2" />
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+  
+
+
+
 
 
 
