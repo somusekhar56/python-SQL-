@@ -259,6 +259,99 @@ Used to delete a view permanently from the database.
 <img width="1011" height="527" alt="image" src="https://github.com/user-attachments/assets/7dbc6d53-8ee2-40d7-9fa1-d6c4a07a8155" />
 
 
+# Variables and Data Types: Understanding variables, numbers, strings, and basic data types. 
+
+# 1 variables:
+A variable in Python is a named location in memory used to store data values that can be changed during program execution.
+name = "Somu" string
+age = 21 integer
+height = 7.2 float
+is_emp = true boolean
+
+# 2 Data types:
+Data types specify the kind of data a variable can hold in Python. They determine how the computer interprets and stores values.
+int age = 21
+float height = 6.2
+str name ="Somu"
+bool is_student = true
+list fruits = ["apple","orange"]
+tuple age = (25,28,32)
+dict student = {"name":"somu","age":32}
+
+<img width="597" height="436" alt="image" src="https://github.com/user-attachments/assets/08b07828-0c3e-46e0-ab42-1d40e6a3cfcd" />
+
+# 3 Control flow statements:
+Control flow statements decide how your program runs — they control which part of the code executes and when.
+# conditional statement:
+ # if statement:
+ Used when you want to check only one condition. If it’s true → executes code If it’s false → does nothing
+ The if condition checks whether age >= 18.If it’s True, the indented block runs.
+ 
+ <img width="583" height="642" alt="image" src="https://github.com/user-attachments/assets/2cae326e-d7b6-4935-a4bb-72aee75aee85" />
+
+ # if else statement:
+ If the if condition is False, the code in the else block executes.
+ One block runs if the condition is true.The other block runs if the condition is false. if checks a condition — executes code if it’s True.else runs only if the condition is False. 
+
+ <img width="641" height="654" alt="image" src="https://github.com/user-attachments/assets/f8ed3f37-fc11-47ac-af16-0cd9996e3f70" />
+
+#  elif statement:
+It allows you to check multiple conditions one after another.
+<img width="1061" height="311" alt="image" src="https://github.com/user-attachments/assets/c81f7487-bf33-45ce-b4ad-13a606eb468a" />
+
+# 4 looping statement:
+# 1 for loop:
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
+<img width="1103" height="318" alt="image" src="https://github.com/user-attachments/assets/32459e60-9292-4d39-89b1-6899566b3a9c" />
+
+# 2 While loop:
+With the while loop we can execute a set of statements as long as a condition is true.
+
+<img width="931" height="173" alt="image" src="https://github.com/user-attachments/assets/54b5d11c-c502-4b4c-8679-f483eaa14cf3" />
+
+#  Data structures:
+#  1 Lists:
+A list is an ordered, changeable (mutable) collection that can store mixed data types.
+<img width="1033" height="194" alt="image" src="https://github.com/user-attachments/assets/e9c4624d-f495-4060-975d-871e022871b3" />
+
+# 2 Tuple
+A tuple is like a list, but immutable (cannot be changed).
+<img width="1183" height="211" alt="image" src="https://github.com/user-attachments/assets/ec5eb06b-2087-46e0-8586-2bd128e3b6d4" />
+
+# 3 Set
+A set is an unordered collection of unique elements.
+<img width="1129" height="191" alt="image" src="https://github.com/user-attachments/assets/9a71b4c6-fbb6-4935-8da9-6e1476b80bd4" />
+
+# 4 Dictionary
+A dictionary stores data in key–value pairs.
+<img width="1175" height="238" alt="image" src="https://github.com/user-attachments/assets/c98761bf-1f0e-4112-9024-9a86f4bdc099" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
 
 
 
