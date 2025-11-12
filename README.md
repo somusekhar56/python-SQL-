@@ -326,6 +326,20 @@ A set is an unordered collection of unique elements.
 A dictionary stores data in key–value pairs.
 <img width="1175" height="238" alt="image" src="https://github.com/user-attachments/assets/c98761bf-1f0e-4112-9024-9a86f4bdc099" />
 
+# DDL:
+DDL stands for Data Definition Language.It deals with defining and managing the structure of database objects.
+
+# 1 CREATE
+Creates a new database or table
+
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    emp_name VARCHAR(50),
+    salary DECIMAL(10,2),
+    dept_id INT
+);
+
+
 
 
 
