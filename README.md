@@ -343,6 +343,109 @@ CREATE TABLE employees (
     dept_id INT
 );
 
+# 2 ALTER
+Modifies an existing database object
+-- Add a new column
+ALTER TABLE employees ADD email VARCHAR(100);
+
+-- Modify a column data type
+ALTER TABLE employees MODIFY salary DECIMAL(12,2);
+
+-- Drop a column
+ALTER TABLE employees DROP COLUMN email;
+
+# 3 DROP
+Deletes a database or table permanently
+
+DROP TABLE students;
+
+# 4 TRUNCATE
+Used to remove all data from a table but keep the table structure.
+
+TRUNCATE TABLE students;
+
+# RENAME
+Used to rename a database object (like a table).
+
+RENAME TABLE students TO student_details;
+
+
+DML (Data Manipulation Language):
+
+DML stands for Data Manipulation Language.It is used to manipulate the data stored inside database tables that means adding, changing, and deleting records.
+# 1 INSERT
+Adds new records to a table.
+
+INSERT INTO students (student_id, name, age, city)
+
+VALUES (1, 'Ravi', 20, 'Hyderabad');
+
+# 2 UPDATE
+Modifies existing records.
+
+UPDATE students
+
+SET city = 'Delhi'
+
+WHERE student_id = 2;
+
+# 3 DELETE
+Removes records from a table.
+DELETE FROM students
+
+WHERE student_id = 3;
+
+# DCL (Data Control Language):
+It is used to control access to the data in the database who can view, modify, or manage data.In simple words, DCL commands deal with database security and user permissions.
+# 1 GRANT
+Gives permission to a user to perform actions
+
+# 2 REVOKE
+Removes permission from a user
+
+# DQL (Data Query Language)
+It is used to fetch or retrieve data from the database.
+
+SELECT Used to retrieve data from one or more tables
+
+# TCL (Transaction Control Language):
+TCL commands are used to manage transactions in a database. A transaction is a group of one or more SQL operations that are executed together as a single unit — either all succeed or all fail (to maintain data integrity).
+
+# 1. COMMIT
+Used to save all the changes permanently in the database.
+
+UPDATE students SET city = 'Delhi' WHERE student_id = 1;
+COMMIT;
+
+# 2. ROLLBACK
+Used to undo changes made in the current transaction before they are committed.
+
+DELETE FROM students WHERE student_id = 2;
+ROLLBACK;
+
+# 3 SAVEPOINT
+
+Used to set a point within a transaction that you can roll back to later without undoing the entire transaction.
+
+BEGIN;
+UPDATE students SET age = 22 WHERE student_id = 1;
+SAVEPOINT sp1;
+
+UPDATE students SET age = 23 WHERE student_id = 2;
+ROLLBACK TO sp1;
+COMMIT;
+
+# 4. SET TRANSACTION
+Used to start a transaction with specific settings (like read-only mode or isolation level).
+SET TRANSACTION READ ONLY;
+
+
+
+
+
+
+
+
 
 
 
