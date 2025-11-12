@@ -333,9 +333,13 @@ DDL stands for Data Definition Language.It deals with defining and managing the 
 Creates a new database or table
 
 CREATE TABLE employees (
+
     emp_id INT PRIMARY KEY,
+    
     emp_name VARCHAR(50),
+    
     salary DECIMAL(10,2),
+    
     dept_id INT
 );
 
