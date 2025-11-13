@@ -439,6 +439,26 @@ COMMIT;
 Used to start a transaction with specific settings (like read-only mode or isolation level).
 SET TRANSACTION READ ONLY;
 
+# Constraints:
+Constraints are rules applied to table columns to enforce data integrity.They ensure the accuracy and reliability of the data in the database.Constraints can be applied when creating a table or altering a table.
+
+# 1 NOT NULL
+Ensures that a column cannot have NULL values.
+
+# 2 UNIQUE
+Ensures that all values in a column are unique.
+
+# 3 PRIMARY KEY
+Uniquely identifies each row in a table. Cannot be NULL.
+
+# 4 FOREIGN KEY
+Ensures the value in a column matches a value in another table, enforcing referential integrity.
+
+# 5 CHECK
+Ensures that column values meet a specific condition.
+
+
+
 
 
 
